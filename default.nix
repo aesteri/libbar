@@ -5,10 +5,8 @@
 stdenv.mkDerivation rec {
   pname = "mybar";
   version = "0.1.0";
-  src = ./bar/.;
+  src = ./.;
 
   #make install
   nativeBuildInputs = [ cmake ];  
- 
-
 }

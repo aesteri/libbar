@@ -1,4 +1,0 @@
-/Users/christinekim/Documents/GitHub/ccp_playground/bar/build/CMakeFiles/foo.dir
-/Users/christinekim/Documents/GitHub/ccp_playground/bar/build/CMakeFiles/bar.dir
-/Users/christinekim/Documents/GitHub/ccp_playground/bar/build/CMakeFiles/edit_cache.dir
-/Users/christinekim/Documents/GitHub/ccp_playground/bar/build/CMakeFiles/rebuild_cache.dir

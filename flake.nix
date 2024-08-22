@@ -22,6 +22,27 @@
     {
       overlays.default = nixpkgs.lib.composeManyExtensions my_overlays;
       packages.x86_64-darwin.default = pkgs.mybar;
+      devShells.x86_64-darwin.default =
+        pkgs.mkShell rec {
+          # Update the name to something that suites your project.
+          name = "christine's library";
+          packages = with pkgs; [
+            # Development Tools
+            cmake
+            mybar
+          ];
+
+          # Setting up the environment variables you need during
+          # development.
+          shellHook =
+            let
+              icon = "f121";
+            in
+            ''
+              echo "hello mom"
+              export PS1="$(echo -e '\u${icon}') {\[$(tput sgr0)\]\[\033[38;5;228m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]} (${name}) \\$ \[$(tput sgr0)\]"
+            '';
+        };
 
     };
 }

@@ -25,7 +25,7 @@ include(GNUInstallDirs)
 
 # Install targets
 install(TARGETS foo bar
-    EXPORT barTargets
+    EXPORT barTargets 
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}

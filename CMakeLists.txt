@@ -27,7 +27,7 @@ install(TARGETS foo bar
 )
 
 # Install header files
-install(FILES bar.hpp DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
+install(FILES bar.hpp foo.hpp DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
 
 # Configure and install the package config file
 include(CMakePackageConfigHelpers)

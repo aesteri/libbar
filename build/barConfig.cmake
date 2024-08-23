@@ -25,7 +25,6 @@ endmacro()
 ####################################################################################
 
 # Find the required dependency
-find_dependency(foo REQUIRED)
 
 # Include the targets file
 include("${CMAKE_CURRENT_LIST_DIR}/barTargets.cmake")

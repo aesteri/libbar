@@ -59,15 +59,15 @@ endif()
 add_library(bar::foo STATIC IMPORTED)
 
 set_target_properties(bar::foo PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;${_IMPORT_PREFIX}/include"
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
 )
 
 # Create imported target bar::bar
 add_library(bar::bar STATIC IMPORTED)
 
 set_target_properties(bar::bar PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:bar::foo>"
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
+  INTERFACE_LINK_LIBRARIES "bar::foo"
 )
 
 # Load information for each installed configuration.

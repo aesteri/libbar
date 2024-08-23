@@ -69,28 +69,28 @@ include CMakeFiles/foo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/foo.dir/flags.make
 
-CMakeFiles/foo.dir/foo.cpp.o: CMakeFiles/foo.dir/flags.make
-CMakeFiles/foo.dir/foo.cpp.o: /Users/christinekim/Documents/GitHub/libbar/foo.cpp
-CMakeFiles/foo.dir/foo.cpp.o: CMakeFiles/foo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/christinekim/Documents/GitHub/libbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/foo.dir/foo.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/foo.dir/foo.cpp.o -MF CMakeFiles/foo.dir/foo.cpp.o.d -o CMakeFiles/foo.dir/foo.cpp.o -c /Users/christinekim/Documents/GitHub/libbar/foo.cpp
+CMakeFiles/foo.dir/src/foo.cpp.o: CMakeFiles/foo.dir/flags.make
+CMakeFiles/foo.dir/src/foo.cpp.o: /Users/christinekim/Documents/GitHub/libbar/src/foo.cpp
+CMakeFiles/foo.dir/src/foo.cpp.o: CMakeFiles/foo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/christinekim/Documents/GitHub/libbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/foo.dir/src/foo.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/foo.dir/src/foo.cpp.o -MF CMakeFiles/foo.dir/src/foo.cpp.o.d -o CMakeFiles/foo.dir/src/foo.cpp.o -c /Users/christinekim/Documents/GitHub/libbar/src/foo.cpp
 
-CMakeFiles/foo.dir/foo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/foo.dir/foo.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/christinekim/Documents/GitHub/libbar/foo.cpp > CMakeFiles/foo.dir/foo.cpp.i
+CMakeFiles/foo.dir/src/foo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/foo.dir/src/foo.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/christinekim/Documents/GitHub/libbar/src/foo.cpp > CMakeFiles/foo.dir/src/foo.cpp.i
 
-CMakeFiles/foo.dir/foo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/foo.dir/foo.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/christinekim/Documents/GitHub/libbar/foo.cpp -o CMakeFiles/foo.dir/foo.cpp.s
+CMakeFiles/foo.dir/src/foo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/foo.dir/src/foo.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/christinekim/Documents/GitHub/libbar/src/foo.cpp -o CMakeFiles/foo.dir/src/foo.cpp.s
 
 # Object files for target foo
 foo_OBJECTS = \
-"CMakeFiles/foo.dir/foo.cpp.o"
+"CMakeFiles/foo.dir/src/foo.cpp.o"
 
 # External object files for target foo
 foo_EXTERNAL_OBJECTS =
 
-libfoo.a: CMakeFiles/foo.dir/foo.cpp.o
+libfoo.a: CMakeFiles/foo.dir/src/foo.cpp.o
 libfoo.a: CMakeFiles/foo.dir/build.make
 libfoo.a: CMakeFiles/foo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/christinekim/Documents/GitHub/libbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libfoo.a"

@@ -69,28 +69,28 @@ include CMakeFiles/bar.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/bar.dir/flags.make
 
-CMakeFiles/bar.dir/bar.cpp.o: CMakeFiles/bar.dir/flags.make
-CMakeFiles/bar.dir/bar.cpp.o: /Users/christinekim/Documents/GitHub/libbar/bar.cpp
-CMakeFiles/bar.dir/bar.cpp.o: CMakeFiles/bar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/christinekim/Documents/GitHub/libbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bar.dir/bar.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bar.dir/bar.cpp.o -MF CMakeFiles/bar.dir/bar.cpp.o.d -o CMakeFiles/bar.dir/bar.cpp.o -c /Users/christinekim/Documents/GitHub/libbar/bar.cpp
+CMakeFiles/bar.dir/src/bar.cpp.o: CMakeFiles/bar.dir/flags.make
+CMakeFiles/bar.dir/src/bar.cpp.o: /Users/christinekim/Documents/GitHub/libbar/src/bar.cpp
+CMakeFiles/bar.dir/src/bar.cpp.o: CMakeFiles/bar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/christinekim/Documents/GitHub/libbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bar.dir/src/bar.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bar.dir/src/bar.cpp.o -MF CMakeFiles/bar.dir/src/bar.cpp.o.d -o CMakeFiles/bar.dir/src/bar.cpp.o -c /Users/christinekim/Documents/GitHub/libbar/src/bar.cpp
 
-CMakeFiles/bar.dir/bar.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bar.dir/bar.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/christinekim/Documents/GitHub/libbar/bar.cpp > CMakeFiles/bar.dir/bar.cpp.i
+CMakeFiles/bar.dir/src/bar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bar.dir/src/bar.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/christinekim/Documents/GitHub/libbar/src/bar.cpp > CMakeFiles/bar.dir/src/bar.cpp.i
 
-CMakeFiles/bar.dir/bar.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bar.dir/bar.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/christinekim/Documents/GitHub/libbar/bar.cpp -o CMakeFiles/bar.dir/bar.cpp.s
+CMakeFiles/bar.dir/src/bar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bar.dir/src/bar.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/christinekim/Documents/GitHub/libbar/src/bar.cpp -o CMakeFiles/bar.dir/src/bar.cpp.s
 
 # Object files for target bar
 bar_OBJECTS = \
-"CMakeFiles/bar.dir/bar.cpp.o"
+"CMakeFiles/bar.dir/src/bar.cpp.o"
 
 # External object files for target bar
 bar_EXTERNAL_OBJECTS =
 
-libbar.a: CMakeFiles/bar.dir/bar.cpp.o
+libbar.a: CMakeFiles/bar.dir/src/bar.cpp.o
 libbar.a: CMakeFiles/bar.dir/build.make
 libbar.a: CMakeFiles/bar.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/christinekim/Documents/GitHub/libbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libbar.a"

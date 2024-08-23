@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/bar.dir/bar.cpp.o"
-  "CMakeFiles/bar.dir/bar.cpp.o.d"
+  "CMakeFiles/bar.dir/src/bar.cpp.o"
+  "CMakeFiles/bar.dir/src/bar.cpp.o.d"
   "libbar.a"
   "libbar.pdb"
 )

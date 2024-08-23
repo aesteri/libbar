@@ -187,53 +187,53 @@ bar/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bar.dir/build.make CMakeFiles/bar.dir/build
 .PHONY : bar/fast
 
-bar.o: bar.cpp.o
-.PHONY : bar.o
+src/bar.o: src/bar.cpp.o
+.PHONY : src/bar.o
 
 # target to build an object file
-bar.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bar.dir/build.make CMakeFiles/bar.dir/bar.cpp.o
-.PHONY : bar.cpp.o
+src/bar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bar.dir/build.make CMakeFiles/bar.dir/src/bar.cpp.o
+.PHONY : src/bar.cpp.o
 
-bar.i: bar.cpp.i
-.PHONY : bar.i
+src/bar.i: src/bar.cpp.i
+.PHONY : src/bar.i
 
 # target to preprocess a source file
-bar.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bar.dir/build.make CMakeFiles/bar.dir/bar.cpp.i
-.PHONY : bar.cpp.i
+src/bar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bar.dir/build.make CMakeFiles/bar.dir/src/bar.cpp.i
+.PHONY : src/bar.cpp.i
 
-bar.s: bar.cpp.s
-.PHONY : bar.s
+src/bar.s: src/bar.cpp.s
+.PHONY : src/bar.s
 
 # target to generate assembly for a file
-bar.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bar.dir/build.make CMakeFiles/bar.dir/bar.cpp.s
-.PHONY : bar.cpp.s
+src/bar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bar.dir/build.make CMakeFiles/bar.dir/src/bar.cpp.s
+.PHONY : src/bar.cpp.s
 
-foo.o: foo.cpp.o
-.PHONY : foo.o
+src/foo.o: src/foo.cpp.o
+.PHONY : src/foo.o
 
 # target to build an object file
-foo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/foo.cpp.o
-.PHONY : foo.cpp.o
+src/foo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/foo.cpp.o
+.PHONY : src/foo.cpp.o
 
-foo.i: foo.cpp.i
-.PHONY : foo.i
+src/foo.i: src/foo.cpp.i
+.PHONY : src/foo.i
 
 # target to preprocess a source file
-foo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/foo.cpp.i
-.PHONY : foo.cpp.i
+src/foo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/foo.cpp.i
+.PHONY : src/foo.cpp.i
 
-foo.s: foo.cpp.s
-.PHONY : foo.s
+src/foo.s: src/foo.cpp.s
+.PHONY : src/foo.s
 
 # target to generate assembly for a file
-foo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/foo.cpp.s
-.PHONY : foo.cpp.s
+src/foo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/src/foo.cpp.s
+.PHONY : src/foo.cpp.s
 
 # Help Target
 help:
@@ -249,12 +249,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... bar"
 	@echo "... foo"
-	@echo "... bar.o"
-	@echo "... bar.i"
-	@echo "... bar.s"
-	@echo "... foo.o"
-	@echo "... foo.i"
-	@echo "... foo.s"
+	@echo "... src/bar.o"
+	@echo "... src/bar.i"
+	@echo "... src/bar.s"
+	@echo "... src/foo.o"
+	@echo "... src/foo.i"
+	@echo "... src/foo.s"
 .PHONY : help
 
 

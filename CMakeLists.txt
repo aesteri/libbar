@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.1)
 project(bar VERSION 1.0 DESCRIPTION "bar library")
 
 # Define the libraries
-add_library(foo STATIC foo.cpp include/foo.hpp)
-add_library(bar STATIC bar.cpp include/bar.hpp)
+add_library(foo STATIC src/foo.cpp include/foo.hpp)
+add_library(bar STATIC src/bar.cpp include/bar.hpp)
 
 # Link bar to foo
 target_link_libraries(bar PRIVATE foo)
@@ -33,7 +33,7 @@ install(TARGETS foo bar
 )
 
 # Install header files
-install(FILES bar.hpp include/foo.hpp DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
+install(FILES include/bar.hpp include/foo.hpp DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
 
 # Configure and install the package config file
 include(CMakePackageConfigHelpers)

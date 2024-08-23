@@ -1,0 +1,8 @@
+/Users/christinekim/Documents/GitHub/libbar/build/CMakeFiles/foo.dir
+/Users/christinekim/Documents/GitHub/libbar/build/CMakeFiles/bar.dir
+/Users/christinekim/Documents/GitHub/libbar/build/CMakeFiles/edit_cache.dir
+/Users/christinekim/Documents/GitHub/libbar/build/CMakeFiles/rebuild_cache.dir
+/Users/christinekim/Documents/GitHub/libbar/build/CMakeFiles/list_install_components.dir
+/Users/christinekim/Documents/GitHub/libbar/build/CMakeFiles/install.dir
+/Users/christinekim/Documents/GitHub/libbar/build/CMakeFiles/install/local.dir
+/Users/christinekim/Documents/GitHub/libbar/build/CMakeFiles/install/strip.dir

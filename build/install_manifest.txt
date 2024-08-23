@@ -1,7 +1,0 @@
-/usr/local/lib/libfoo.a
-/usr/local/lib/libbar.a
-/usr/local/include/bar.hpp
-/usr/local/include/foo.hpp
-/usr/local/lib/cmake/bar/barConfig.cmake
-/usr/local/lib/cmake/bar/barTargets.cmake
-/usr/local/lib/cmake/bar/barTargets-noconfig.cmake

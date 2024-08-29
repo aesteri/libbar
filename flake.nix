@@ -22,6 +22,7 @@
     {
       overlays.default = nixpkgs.lib.composeManyExtensions my_overlays;
       packages.x86_64-darwin.default = pkgs.mybar;
+      
       devShells.x86_64-darwin.default =
         pkgs.mkShell rec {
           # Update the name to something that suites your project.
